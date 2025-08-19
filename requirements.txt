@@ -1,0 +1,9 @@
+flask
+fastapi
+uvicorn
+python-multipart
+Pillow
+numpy
+# Use one of these depending on environment
+tensorflow-cpu
+# tensorflow

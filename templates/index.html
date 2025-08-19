@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>{{ title }}</h1>
+    <form method="POST" action="/predict" enctype="multipart/form-data">
+      <input type="file" name="file" accept="image/*" required/>
+      <button type="submit">Predict</button>
+    </form>
+    <p>Use this page to upload an image and see the API response.</p>
+    <p><code>curl -X POST -F "file=@your.jpg" http://127.0.0.1:5000/predict</code></p>
+  </div>
+</body>
+</html>

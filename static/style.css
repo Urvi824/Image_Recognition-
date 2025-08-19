@@ -1,0 +1,4 @@
+.container{max-width:720px;margin:40px auto;font-family:system-ui,Arial;padding:0 16px}
+h1{font-size:1.8rem}
+button{padding:10px 16px;border:0;border-radius:8px;cursor:pointer}
+input[type=file]{margin:12px 0}
